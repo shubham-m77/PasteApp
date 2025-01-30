@@ -1,0 +1,65 @@
+*{font-family: poppins;}
+body{font-family: Verdana, Geneva, Tahoma, sans-serif;margin:0;padding:0;display: flex;align-items: center;justify-content: center;background: rgba(53, 50, 50, 0.909);}
+.input-error{border:solid 1px red;}
+label{font-weight: 500;}
+.error-msg{color:red;}
+.navbar{opacity: 0.5;width:100%;}
+#root{width:100%;}
+/* Paste.css */
+.search-container {
+    position: relative;
+    margin: 20px auto;
+  }
+  .icon-btn{border:none;outline: none;background-color: inherit;border-bottom:solid 2px rgb(53, 174, 255);border-radius: 5px;}
+  .icon-btn:hover{border-bottom:solid 2px rgb(0, 99, 164);box-shadow: 0 0 4px #ccc;transition: 0.25s ease-in;}
+  .search-input {
+    width: 100%;
+    font-size: 16px;
+    height:35px;
+    border: 1px solid #ccc !important; /* Override Bootstrap's default border */
+  border-radius: 25px !important; /* Override Bootstrap's border-radius */
+  outline: none !important; /* Override Bootstrap's outline */
+  transition: border-color 0.3s ease;
+  }
+  .search-input:focus {
+   
+    box-shadow: 0 0 2px #ccc; /* Remove shadow on focus */
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 28px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #aaa;
+  }
+  .btns{float:right;gap: 10px;}
+  .paste-area {
+    resize: none; /* Prevent resizing */
+    padding-right: 30px; /* Make space for the copy button inside */
+  }
+  
+  .copy-btn {
+    cursor: pointer;
+    position: absolute;
+    top:5px;
+    right: 5px;
+    padding: 8px;
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s ease;
+  }
+  
+  .copy-btn:hover {
+    background-color: #e0e0e0; /* Slightly darker background on hover */
+  }
+  
+  .icons {
+    font-size: 1.2rem; /* Icon size */
+  }
+.content{margin-top:-40px;}
+.date{margin-top: 10px;margin-right:8.5%;font-size:14px;}
+.card:hover{box-shadow: 0 0 6px #ccc;transition: 0.25s linear;background-color: rgb(250, 253, 255);}
+
+  
+  
